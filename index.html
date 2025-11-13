@@ -21,7 +21,7 @@
                 <a href="#"><img src="./img/hdchostlogo.png" alt="hDC Logo" class="logo"></a>
                 <ul class="navbarItems">
                     <li><a href="#">HOME</a></li>
-                    <li><a href="#">PREÇOS</a></li>
+                    <li><a href="#pricingContainer">PREÇOS</a></li>
                     <li><a href="#">CONTATO</a></li>
                     <li><a href="#" class="defaultBtn">ENTRAR</a></li>
                 </ul>
@@ -56,9 +56,88 @@
             </ul>
         </section>
 
+        <section id="pricingContainer">
+            <h2>Planos e Preços</h2>
+            <p>Selecione o plano que atende as suas necessidades.</p>
+            <div class="plansContainer">
+                <div class="plan">
+                    <ul>
+                        <li class="price">R$ 15/mês</li>
+                        <li class="planName">Básico</li>
+                        <li>2GB de espaço</li>
+                        <li>1 Subdomínio</li>
+                        <li>25 contas de e-mail</li>
+                        <li>C-Panel</li>
+                        <li>Suporte 24/7</li>
+                        <li class="planBtn">Saiba Mais</li>
+                    </ul>
+                </div>
 
+                <div class="plan">
+                    <ul>
+                        <li class="price">R$ 30/mês</li>
+                        <li class="planName">Dedicado</li>
+                        <li>5GB de espaço</li>
+                        <li>10 Subdomínio</li>
+                        <li>50 contas de e-mail</li>
+                        <li>C-Panel</li>
+                        <li>Suporte 24/7</li>
+                        <li class="planBtn">Saiba Mais</li>
+                    </ul>
+                </div>
 
+                <div class="plan">
+                    <ul>
+                        <li class="price recommended">R$ 50/mês</li>
+                        <!-- Adcionar a classe recommended, para dar destaque ao plano recomendado. -->
+                        <li class="planName">Dedicado Plus</li>
+                        <li>10GB de espaço</li>
+                        <li>15 Subdomínio</li>
+                        <li>100 contas de e-mail</li>
+                        <li>C-Panel</li>
+                        <li>Suporte 24/7</li>
+                        <li class="planBtn recommended">Saiba Mais</li>
+                    </ul>
+                </div>
+
+                <div class="plan">
+                    <ul>
+                        <li class="price">R$ 100/mês</li>
+                        <li class="planName">Cloud</li>
+                        <li>20GB de espaço</li>
+                        <li>20 Subdomínio</li>
+                        <li>200 contas de e-mail</li>
+                        <li>C-Panel</li>
+                        <li>Suporte 24/7</li>
+                        <li class="planBtn">Saiba Mais</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="searchdomainContainer">
+            <h2>Qual domínio que você quer para o seu site?</h2>
+            <p>Verifique se o domínio está disponível.</p>
+            <form action="#" method="get">
+                <input type="text" name="domain" id="domain" placeholder="Digite o domínio desejado.">
+                <input type="submit" value="Procurar domínio">
+            </form>
+        </section>
+
+        <section id="contactContainer">
+            <h2>Mande sua mensagem</h2>
+            <p>Envie a sua mensagem, em até 4 horas um especialista entrará em contato.</p>
+            <form action="#" method="post">
+                <input type="text" name="name" id="name" placeholder="Seu nome">
+                <input type="email" name="email" id="email" placeholder="Seu e-mail">
+                <textarea name="menssage" id="menssage" placeholder="Descreva o que precisa para o seu projeto..."></textarea>
+                <input type="submit" value="ENVIAR">
+            </form>
+        </section>
     </main>
+    <footer>
+        <p>hDC Host @ 2025</p>
+    </footer>
 </body>
 
 </html>

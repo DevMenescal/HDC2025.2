@@ -138,3 +138,170 @@ nav{
 .servicesContainer p{
     line-height: 24px;
 }
+
+/* Preços e Planos */
+
+#pricingContainer{
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+#pricingContainer h2{
+    font-size: 36px;
+}
+
+#pricingContainer p{
+    font-size: 20px;
+}
+
+.plansContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto 0;
+}
+
+.plan{
+    flex: 1;
+    max-width: 275px;
+    margin: 0;
+}
+
+.plan ul{
+    padding: 0;
+}
+
+.plan li{
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: #e8e9ea;
+    color: #333;
+}
+
+.plan .price{
+    width: 120px;
+    height: 120px;
+    background-color: #2cc76a;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 120px;
+    position: relative;
+    font-size: 18px;
+    margin: 0 auto -50px;
+}
+
+.plan .planName{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #202b34;
+    padding: 50px 0;
+}
+
+.plan .planBtn{
+    background-color: #2cc76a;
+    color: #fff;
+    font-size: 24px;
+    height: 75px;
+    line-height: 75px;
+    cursor: pointer;
+}
+
+.plan .recommended{
+    background-color: #f45c57;
+}
+
+/* Search Domain */
+.searchdomainContainer{
+    background-color: #34454e;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.searchdomainContainer h2{
+    color: #fff;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.searchdomainContainer p{
+    color: #d5d5d5;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.searchdomainContainer input{
+    display: block;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.searchdomainContainer input[type="text"]{
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.searchdomainContainer input[type="submit"]{
+    background-color: #2cc76a;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.searchdomainContainer input[type="submit"]:hover{
+    opacity: 1;
+}
+
+/* Formulário de Contato */
+#contactContainer{
+    text-align: center;
+    padding: 80px 0 32px 0;
+}
+
+#contactContainer h2{
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+#contactContainer p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+#contactContainer input,
+#contactContainer textarea{
+    width: 200px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 0 10px 20px ;
+}
+
+#contactContainer textarea{
+    display: block;
+    margin: 0 auto 20px;
+    width: 470px;
+    height: 150px;
+}
+
+#contactContainer input[type="submit"]{
+    display: block;
+    margin: 0 auto;
+    background-color: #2cc76a;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Footer */
+footer{
+    text-align: center;
+    font-weight: bold;
+    margin: 50px 0 80px;
+}
