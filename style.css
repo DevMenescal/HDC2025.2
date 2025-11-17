@@ -305,3 +305,77 @@ footer{
     font-weight: bold;
     margin: 50px 0 80px;
 }
+
+/* Responsividade */
+
+/* Pequenos Laptops até 1100px */
+@media scree and (max-width: 1100px){
+    .plansContainer{
+        width: 95%;
+    }
+    .plan{
+        margin: 0 5px;
+    }
+}
+
+/* Tablets até 900px */
+@media scree and (max-width:900px){
+    .mainBanner p{
+        padding: 0 96px;
+    }
+    .searchdomainContainer{
+        padding: 32px 64px;
+    }
+}
+
+/* Celular 576px */
+@media screen and (max-width:576px){
+    html,
+    body{
+        overflow-x: hidden;
+    }
+
+    .navbarItems li{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .mainBanner p{
+        padding: 0 32px;
+    }
+
+    .servicesContainer ul{
+        flex-direction: column;
+    }
+
+    .plansContainer{
+        flex-direction: column;
+        width: 100%;
+        padding: 0 32px;
+    }
+
+    .plan{
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .searchdomainContainer h2{
+        font-size: 32px;
+    }
+
+    .searchdomainContainer input[type="text"]{
+        width: 100%;
+    }
+
+    #contactContainer{
+        padding: 48px 32px;
+    }
+
+    #contactContainer input,
+    #contactContainer textarea{
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
